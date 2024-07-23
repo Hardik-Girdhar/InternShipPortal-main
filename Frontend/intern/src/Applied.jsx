@@ -8,7 +8,7 @@ const Applied = () => {
   useEffect(() => {
     const fetchAppliedInternships = async () => {
       try {
-        const response = await fetch('http://localhost:3001/applied', {
+        const response = await fetch('https://internshipportal-main-backend.onrender.com', {
           method: 'GET',
           credentials: 'include', // Ensure cookies are included
         });

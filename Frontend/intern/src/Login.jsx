@@ -11,7 +11,7 @@ const Login = () => {
     e.preventDefault();
     const credentials = { email, password };
     try {
-      const response = await fetch('http://localhost:3001/login', {
+      const response = await fetch('https://internshipportal-main-backend.onrender.com', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

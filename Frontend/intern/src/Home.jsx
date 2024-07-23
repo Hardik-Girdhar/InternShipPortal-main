@@ -13,7 +13,7 @@ const Home = () => {
 
   const apply = async (internship, index) => {
     try {
-      const response = await fetch('http://localhost:3001/apply', {
+      const response = await fetch('https://internshipportal-main-backend.onrender.com', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
